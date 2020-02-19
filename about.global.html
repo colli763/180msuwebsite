@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>180 Degrees Consulting MSU</title>
+    <link rel="icon" href="resources/180littlelogo.png">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+    <!-- Custom styles for this template -->
+    <link href="css/full-width-pics.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+    </style>
+</head>
+
+<body>
+
+<!--Navigation Bar START -->
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+    $.get("nav.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+</script>
+<div id="nav-placeholder"></div>
+<!--Navigation Bar END -->
+<!--Page code -->
+<div class="container">
+    <!-- Page Heading/Breadcrumbs -->
+
+    <div class="container p-3 my-3">
+        <h1 class="mt-4 mb-3">GLOBAL PERSPECTIVE</h1>
+        <hr>
+    </div>
+    <!-- Content Row -->
+    <div class="row">
+        <!-- Sidebar Column -->
+        <div class="col-lg-3 mb-4">
+            <div id="side-placeholder"></div>
+            <script>
+                $(function(){
+                    $("#side-placeholder").load("sidebar.html");
+                });
+            </script>
+        </div>
+        <!-- Content Column -->
+        <div class="col-lg-9 mb-3">
+
+            <h2 class="b">AN INTERNATIONAL PRESENCE</h2>
+            <p class="b">
+                180 Degrees Consulting is the world's largest university based consultancy. It was founded in Sydney, Australia by Nat Ware. Students at other universities in Australia heard about the concept and 180 Degrees Consulting's mission, and launched branches on their respective campuses. From there, 180 Degrees Consulting grew through Asia, then Europe, and eventually the Americas.
+            </p>
+            <P class="b">As of January 2017, the 81 branches of 180 Degrees Consulting in 33 countries have completed over 1800 projects for various clients that are positively impacting people around the world. </P>
+            <div class="border-0 shadow">
+            <img src="resources/180global.png" class="img-fluid" alt="">
+            </div>
+            <hr>
+            <h2 class="b">THE SOLUTION</h2>
+            <p class="b">
+                The global presence and scale of 180 Degrees Consulting's operations allows consultants from any branch to leverage the expertise of consultants from other branches through our worldwide past project database. Similarly, consultants join the international 180 Degrees Consulting community that provides extensive networking opportunities, collaborative projects, and the opportunity to consult with a different branch if one studies abroad in a city where 180 Degrees Consulting is present.  </p>
+            <hr>
+        </div>
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- Footer -->
+<div id="footer-placeholder"></div>
+<script>
+    $(function(){
+        $("#footer-placeholder").load("footer.html");
+    });
+</script>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
