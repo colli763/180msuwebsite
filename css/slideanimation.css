@@ -1,0 +1,233 @@
+
+
+/* slide out animation for general navbar and other delay */
+@media (min-width: 992px) {
+    .animate {
+        animation-duration: 0.3s;
+        -webkit-animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+}
+
+@keyframes waitout {
+    0% {
+        transform: translate3d(0rem);
+        opacity: 0;
+    }
+    100% {
+        transform:translate3d(0rem);
+        opacity: 1;
+    }
+    0% {
+        transform: translate3d(1rem);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes waitout {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(100%);
+        -webkit-opacity: 1;
+    }
+    0% {
+        -webkit-transform: translateX(1rem);
+        -webkit-opacity: 0;
+    }
+}
+.waitout {
+    -webkit-animation-name: waitout;
+    animation-name: waitout;
+    animation-delay: 1;
+}
+/* END slide out animation for navbar */
+
+/* slide out animation for general navbar and other delay */
+@media (min-width: 992px) {
+    .animate {
+        animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+}
+
+@keyframes picture {
+    0% {
+        transform: translate3d(0rem);
+        opacity: 0;
+    }
+    100% {
+        transform:translate3d(0rem);
+        opacity: 1;
+    }
+    0% {
+        transform: translate3d(50%);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes picture {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(100%);
+        -webkit-opacity: 1;
+    }
+    0% {
+        -webkit-transform: translateX(0%);
+        -webkit-opacity: 0;
+    }
+}
+.picture {
+    -webkit-animation-name: picture;
+    animation-name: picture;
+    animation-delay: 5s;
+}
+/* END slide out animation for navbar */
+
+
+/* slide out animation for navbar */
+@media (min-width: 992px) {
+    .animate {
+        animation-duration: 3s;
+        -webkit-animation-duration: 10s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+}
+
+@keyframes test {
+    0% {
+        transform: translateX(0%);
+        opacity: 0;
+    }
+    100% {
+        transform:translateX(0%);
+        opacity: 1;
+    }
+    0% {
+        transform: translateX(10%);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes test {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+    50% {
+        -webkit-transform: translateX(0);
+        -webkit-opacity: 1;
+    }
+    0% {
+        -webkit-transform: translateX(10%);
+        -webkit-opacity: 0;
+    }
+}
+.test {
+    -webkit-animation-name: test;
+    animation-name: test;
+    animation-delay: .25s;
+}
+/* END slide out animation for navbar */
+
+/* slide out animation for navbar */
+@media (min-width: 992px) {
+    .animate {
+        animation-duration: 1.4s;
+        -webkit-animation-duration: 1.4s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+}
+
+@keyframes textslide {
+    0% {
+        transform: translateX(0%);
+        opacity: 0;
+    }
+    100% {
+        transform:translateY(0%);
+        opacity: 1;
+    }
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes textslide {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        -webkit-opacity: 1;
+    }
+    0% {
+        -webkit-transform: translateY(50%);
+        -webkit-opacity: 0;
+    }
+}
+.textslide {
+    -webkit-animation-name: textslide;
+    animation-name: textslide;
+}
+/* END slide out animation for navbar */
+
+/* Change this breakpoint if you change the breakpoint of the navbar */
+
+@media (min-width: 992px) {
+    .animate {
+        animation-duration: 0.3s;
+        -webkit-animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+    100% {
+        transform:translateY(0rem);
+        opacity: 1;
+    }
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slideIn {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        -webkit-opacity: 1;
+    }
+    0% {
+        -webkit-transform: translateY(1rem);
+        -webkit-opacity: 0;
+    }
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
+/* Other styles for the page not related to the animated dropdown */
