@@ -1,0 +1,103 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-bac kground-size: cover;
+}
+h1.titleclass {
+  color: #383838;
+}
+.titleclassjoin {
+  color: #484848;
+  padding-bottom: 1vw;
+}
+h1.mt-4{
+    color: #6C9042;
+}
+div.title{
+    padding-top: 15px;
+}
+
+.btn-outline-light {
+  border: 1px solid #000000;
+}
+p.greentitle {
+  color: #6C9042;
+}
+img.small {
+  height: min-content;
+  width: min-content;
+  padding-left: 20px;
+}
+h2.b {
+  line-height: 1.6;
+  color: #6C9042;
+}
+h3.b {
+  line-height: 1.6;
+  color: #6C9042;
+  padding-top: 15px;
+}
+p.b {
+   line-height: 1.8;
+   padding-bottom: 5px;
+ }
+.c {
+  line-height: 2;
+  margin: 20px;
+}
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+}
+
+.list-group-item {
+  color: #484848;
+}
+.my-3 {
+
+}
+p.bulletbold {
+  line-height: 1.6;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+p.bullettext {
+  line-height: 1.6;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
+
+ol.d {
+  margin: 25px;
+  line-height: 2.5;
+  padding: 15px;
+}
+div.alert{
+  padding-top: 20px;
+}
+li.listspace {
+  margin: 20px;
+  line-height: 2.5;
+}
+.space {
+  padding-bottom: 20px;
+}
+a.collapsed {
+  color: #484848;
+}
+a {
+  color: #6C9042;
+}
