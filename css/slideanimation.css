@@ -231,3 +231,6 @@
 }
 
 /* Other styles for the page not related to the animated dropdown */
+h5.modal-title {
+    color: #6C9042;
+}
