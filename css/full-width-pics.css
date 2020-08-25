@@ -52,6 +52,11 @@ p.b {
    line-height: 1.8;
    padding-bottom: 5px;
  }
+p.bcolor {
+  line-height: 1.8;
+  color: #4f4f4f;
+  padding-bottom: 5px;
+}
 .c {
   line-height: 2;
   margin: 20px;
