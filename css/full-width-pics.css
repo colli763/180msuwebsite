@@ -110,3 +110,6 @@ footer {
   height: 120px;
   padding-bottom: 30px;
 }
+p.min{
+  line-height: .5;
+}
