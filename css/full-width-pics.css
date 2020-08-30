@@ -113,3 +113,8 @@ footer {
 p.min{
   line-height: .5;
 }
+p.lig2 {
+  line-height: 1.8;
+  color: #616161;
+  padding-bottom: 5px;
+}
