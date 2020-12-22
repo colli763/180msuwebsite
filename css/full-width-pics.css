@@ -105,3 +105,7 @@ footer {
   height: 120px;
   padding-bottom: 30px;
 }
+::selection {
+  background-color: #7e0001;
+  color: #fff;
+}
