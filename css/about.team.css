@@ -13,14 +13,14 @@ p.think-share {
     object-fit: cover;
 }
 .hover08 figure img {
-    -webkit-filter: opacity(90%);
+    -webkit-filter: grayscale(100%);
     -webkit-transition: all .4s ease;
     transition: all .4s ease;
-    filter: opacity(90%);
+    filter: grayscale(100%);
 }
 .hover08 figure:hover img {
-    -webkit-filter: opacity(100);
-    filter: opacity(100);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 }
 
 
