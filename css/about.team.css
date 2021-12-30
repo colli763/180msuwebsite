@@ -38,7 +38,8 @@ h2.anchor {
     top: 100px;
 }
 div.card-body {
-    height: 89px;
+    height: 79px;
+    object-fit: cover;
 }
 h5.card-title {
     color: #6C9042;
